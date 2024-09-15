@@ -1,14 +1,15 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import Header from "./Components/Header";
+import Header from "./Components/Header/Header";
 
 import "./App.css";
 
 function App() {
   return (
-    <>{/* <Header /> */}</>;
-  )
-  
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
