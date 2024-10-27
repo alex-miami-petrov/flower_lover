@@ -3,6 +3,7 @@ import Container from "../Container/Container";
 import logo from "../../img/logo/logo.png";
 import icons from "../../img/icons.svg";
 import s from "./Header.module.css";
+import NavBar from "./NavBar";
 
 const Header = () => {
   return (
@@ -16,7 +17,7 @@ const Header = () => {
             width="126"
             height="63"
           />
-
+          <NavBar />
           <div className={s.headBtnWrap}>
             <button type="button" className={s.headSearchButton}>
               <svg className={s.headSearchIcon} width="22" height="23">

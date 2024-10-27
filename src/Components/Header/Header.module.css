@@ -11,11 +11,13 @@
 .burger {
   border: none;
   background-color: transparent;
+  padding: 0;
 }
 
 .headSearchButton {
   border: none;
   background-color: transparent;
+  padding: 0;
 }
 
 .headSearchIcon {
@@ -30,6 +32,7 @@
 .headBtnWrap {
   display: flex;
   align-items: center;
+  gap: 16px;
 }
 
 @media screen and (min-width: 390px) {

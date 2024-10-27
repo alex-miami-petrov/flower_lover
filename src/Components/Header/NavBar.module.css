@@ -1,0 +1,18 @@
+.navList {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .navList {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+  }
+  .navItem {
+    font-family: "Source Sans Pro", sans-serif;
+
+    font-size: 20px;
+    text-align: center;
+    color: #f5ebeb;
+  }
+}
