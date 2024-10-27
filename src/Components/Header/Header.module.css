@@ -1,0 +1,46 @@
+.header {
+  padding-top: 32px;
+}
+
+.headWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger {
+  border: none;
+  background-color: transparent;
+}
+
+.headSearchButton {
+  border: none;
+  background-color: transparent;
+}
+
+.headSearchIcon {
+  stroke: white;
+}
+
+.burgerIcon {
+  fill: white;
+  stroke: white;
+}
+
+.headBtnWrap {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 390px) {
+}
+
+@media screen and (min-width: 1440px) {
+  .headBtnWrap {
+    display: none;
+  }
+  .header {
+    padding-top: 64px;
+    padding-bottom: 109px;
+  }
+}
