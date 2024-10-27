@@ -10,13 +10,16 @@ const Header = () => {
     <div className={s.header}>
       <Container>
         <div className={s.headWrap}>
-          <img
-            src={logo}
-            alt="logo"
-            className={s.headLogo}
-            width="126"
-            height="63"
-          />
+          <a href="/" className={s.logoLink}>
+            <img
+              src={logo}
+              alt="logo"
+              className={s.headLogo}
+              width="126"
+              height="63"
+            />
+          </a>
+
           <NavBar />
           <div className={s.headBtnWrap}>
             <button type="button" className={s.headSearchButton}>
