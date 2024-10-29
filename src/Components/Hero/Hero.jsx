@@ -14,6 +14,7 @@ export const Hero = () => {
             Неймовірні <br />
             <span className={s.heroSpan}>букети</span> зі свіжих квітів
           </h1>
+          <p className={s.titleText}>З доставкою по Києву протягом 1 години</p>
           <a href="#catalogue" className={s.heroLinkBtn}>
             ЗАМОВИТИ КВІТИ
           </a>
@@ -25,7 +26,10 @@ export const Hero = () => {
                 height="24"
                 src={rose}
               ></img>
-              <p className={s.heroText}>Щоденне оновлення</p>
+              <p className={s.heroText}>
+                Щоденне оновлення
+                <span className={s.deskSpan}> свіжих квітів</span>
+              </p>
             </div>
             <div className={s.hIW}>
               <img
@@ -34,7 +38,10 @@ export const Hero = () => {
                 height="24"
                 src={delivery}
               ></img>
-              <p className={s.heroText}>Безкоштовна доставка</p>
+              <p className={s.heroText}>
+                Безкоштовна доставка
+                <span className={s.deskSpan}> в будь яку точку міста</span>
+              </p>
             </div>
             <div className={s.hIW}>
               <img
@@ -44,7 +51,8 @@ export const Hero = () => {
                 src={world}
               ></img>
               <p className={s.heroText}>
-                Більше 1000 <br /> сортів квітів{" "}
+                Більше 1000 сортів квітів
+                <span className={s.deskSpan}> з усього світу</span>
               </p>
             </div>
           </div>

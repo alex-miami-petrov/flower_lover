@@ -1,70 +1,5 @@
 :root {
-  @font-face {
-    font-family: "Source Code Pro", sans-serif;
-
-    src: url("./Fonts/SourceCodePro-Regular.ttf") format("truetype");
-
-    font-weight: normal;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: "Source Code Pro", sans-serif;
-
-    src: url("./Fonts/SourceCodePro-Light.ttf") format("truetype");
-    font-weight: 300;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: "Source Code Pro", sans-serif;
-
-    src: url("./Fonts/SourceCodePro-Bold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: "Source Code Pro", sans-serif;
-
-    src: url("./Fonts/SourceCodePro-SemiBold.ttf") format("truetype");
-    font-weight: 600;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: "Playfair Display", sans-serif;
-
-    src: url("./Fonts/PlayfairDisplay-Regular.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: "Playfair Display", sans-serif;
-
-    src: url("./Fonts/PlayfairDisplay-ExtraBold.ttf") format("truetype");
-    font-weight: 800;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: "Playfair Display", sans-serif;
-
-    src: url("./Fonts/PlayfairDisplay-MediumItalic.ttf") format("truetype");
-    font-weight: 500;
-    font-style: italic;
-  }
-
-  @font-face {
-    font-family: "Playfair Display", sans-serif;
-
-    src: url("./Fonts/PlayfairDisplay-SemiBold.ttf") format("truetype");
-    font-weight: 600;
-    font-style: normal;
-  }
-
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Playfair Display", "Source Code Pro", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -76,6 +11,71 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Source Code Pro", sans-serif;
+
+  src: url("./Fonts/SourceCodePro-Regular.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Source Code Pro", sans-serif;
+
+  src: url("./Fonts/SourceCodePro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Source Code Pro", sans-serif;
+
+  src: url("./Fonts/SourceCodePro-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Source Code Pro", sans-serif;
+
+  src: url("./Fonts/SourceCodePro-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Playfair Display", sans-serif;
+
+  src: url("./Fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Playfair Display", sans-serif;
+
+  src: url("./Fonts/PlayfairDisplay-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Playfair Display", sans-serif;
+
+  src: url("./Fonts/PlayfairDisplay-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Playfair Display", sans-serif;
+
+  src: url("./Fonts/PlayfairDisplay-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
 }
 
 h1,
@@ -117,6 +117,8 @@ a:hover {
 }
 
 body {
+  font-family: "Playfair Display", "Source Code Pro", sans-serif;
+
   margin: 0;
   /* display: flex; */
   /* place-items: center; */
@@ -167,3 +169,19 @@ button:focus-visible {
 html {
   scroll-behavior: smooth;
 }
+
+/* @font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+} */
