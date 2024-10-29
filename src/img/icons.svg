@@ -6,5 +6,9 @@
 <symbol id="icon-search" viewBox="0 0 31 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.7826" d="M29.217 29.913l-2.783-2.783M14.609 28.522c1.736 0 3.454-0.342 5.058-1.006s3.061-1.638 4.288-2.865c1.227-1.227 2.201-2.684 2.865-4.288s1.006-3.322 1.006-5.058c0-1.736-0.342-3.454-1.006-5.058s-1.638-3.061-2.865-4.288c-1.227-1.227-2.684-2.201-4.288-2.865s-3.322-1.006-5.058-1.006c-3.505 0-6.867 1.393-9.346 3.871s-3.871 5.841-3.871 9.346c0 3.506 1.393 6.867 3.871 9.346s5.841 3.871 9.346 3.871v0z"></path>
 </symbol>
+<symbol id="icon-close" viewBox="0 0 32 32">
+<path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M24 8l-16 16"></path>
+<path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M8 8l16 16"></path>
+</symbol>
 </defs>
 </svg>

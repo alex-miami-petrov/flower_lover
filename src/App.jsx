@@ -3,11 +3,18 @@ import reactLogo from "./assets/react.svg";
 import Header from "./Components/Header/Header";
 
 import "./App.css";
+import MobMenu from "./Components/MobMenu/MobMenu";
 
 function App() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
     <>
-      <Header />
+      <Header toggleMenu={toggleMenu} />
+      {isMenuOpen && <MobMenu closeMenu={toggleMenu} />}
     </>
   );
 }

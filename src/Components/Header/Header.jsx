@@ -5,7 +5,7 @@ import icons from "../../img/icons.svg";
 import s from "./Header.module.css";
 import NavBar from "./NavBar";
 
-const Header = () => {
+const Header = ({ toggleMenu }) => {
   return (
     <div className={s.header}>
       <Container>
@@ -28,7 +28,7 @@ const Header = () => {
               </svg>
             </button>
 
-            <button type="button" className={s.burger}>
+            <button type="button" className={s.burger} onClick={toggleMenu}>
               <svg className={s.burgerIcon} width="42" height="42">
                 <use href={`${icons}#icon-burger`} />
               </svg>
