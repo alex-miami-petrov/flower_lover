@@ -116,9 +116,11 @@
 
 @media screen and (min-width: 1440px) {
   .hero {
+    position: unset;
     max-width: 768px;
     height: 640px;
     padding-bottom: 44px;
+    margin-right: unset;
 
     background-image: url(../../img/Hero/hero-desk.png);
     background-size: cover;
@@ -132,5 +134,40 @@
     .hero {
       background-image: url(../../img/Hero/hero-desk-2x.png);
     }
+  }
+  .hero::after {
+    content: unset;
+  }
+
+  .heroTitle {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    max-width: 860px;
+    line-height: 1.85;
+
+    color: #a93b59;
+    transform: translate(-104%, -20%);
+  }
+
+  .heroSpan {
+    font-size: 86px;
+    text-align: center;
+    line-height: 0.7;
+    margin-left: 140px;
+  }
+  .heroWrap {
+    transform: translate(25%, -6%);
+
+    width: 860px;
+    height: 239px;
+  }
+
+  .heroLinkBtn {
+    position: relative;
+    max-width: 437px;
+    height: 62px;
+    padding: 20px;
+    transform: translate(-170%, 80%);
   }
 }
