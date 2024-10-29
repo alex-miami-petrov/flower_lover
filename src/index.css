@@ -1,46 +1,70 @@
 :root {
   @font-face {
-    font-family: "Roboto", sans-serif;
+    font-family: "Source Code Pro", sans-serif;
 
-    src: url("./Fonts/Roboto-Regular.ttf") format("truetype");
+    src: url("./Fonts/SourceCodePro-Regular.ttf") format("truetype");
 
     font-weight: normal;
     font-style: normal;
   }
 
   @font-face {
-    font-family: "Roboto", sans-serif;
+    font-family: "Source Code Pro", sans-serif;
 
-    src: url("./Fonts/Roboto-Medium.ttf") format("truetype");
-    font-weight: 500;
+    src: url("./Fonts/SourceCodePro-Light.ttf") format("truetype");
+    font-weight: 300;
     font-style: normal;
   }
 
   @font-face {
-    font-family: "Roboto", sans-serif;
+    font-family: "Source Code Pro", sans-serif;
 
-    src: url("./Fonts/Roboto-Bold.ttf") format("truetype");
-    font-weight: 600;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: "Raleway", sans-serif;
-
-    src: url("./Fonts/Raleway-Bold.ttf") format("truetype");
+    src: url("./Fonts/SourceCodePro-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
   }
 
   @font-face {
-    font-family: "Raleway", sans-serif;
+    font-family: "Source Code Pro", sans-serif;
 
-    src: url("./Fonts/Raleway-ExtraBold.ttf") format("truetype");
+    src: url("./Fonts/SourceCodePro-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Playfair Display", serif;
+
+    src: url("./Fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Playfair Display", serif;
+
+    src: url("./Fonts/PlayfairDisplay-ExtraBold.ttf") format("truetype");
     font-weight: 800;
     font-style: normal;
   }
 
-  font-family: "Roboto", sans-serif;
+  @font-face {
+    font-family: "Playfair Display", serif;
+
+    src: url("./Fonts/PlayfairDisplay-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Playfair Display", serif;
+
+    src: url("./Fonts/PlayfairDisplay-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  font-family: "Playfair Display", serif;
   line-height: 1.5;
   font-weight: 400;
 
