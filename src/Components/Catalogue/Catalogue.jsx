@@ -5,12 +5,13 @@ import s from "./Catalogue.module.css";
 
 const Catalogue = () => {
   return (
-    <div className={s.catalogue}>
+    <div className={s.catalogue} id="catalogue">
       <Container>
         <div className={s.catTitleWrap}>
           <h2 className={s.catTitle}>Каталог</h2>
           <img className={s.border} width="390" src={border}></img>
         </div>
+        <h3 className={s.catSubtitle}>Доставка квітів в Києві</h3>
       </Container>
     </div>
   );

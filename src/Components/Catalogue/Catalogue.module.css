@@ -31,4 +31,8 @@
     transform: translate(-18%, 50%);
     width: 530px;
   }
+
+  .catSubtitle {
+    padding-top: 60px;
+  }
 }

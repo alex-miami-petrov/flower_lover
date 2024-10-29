@@ -42,7 +42,7 @@ import s from "./MobMenu.module.css";
 
 const MobMenu = ({ closeMenu }) => {
   const links = [
-    { name: "Головна", path: "#home" },
+    { name: "Головна", path: "/" },
     { name: "Каталог", path: "#catalogue" },
     { name: "Про нас", path: "#aboutUs" },
     { name: "Як замовити", path: "#order" },
