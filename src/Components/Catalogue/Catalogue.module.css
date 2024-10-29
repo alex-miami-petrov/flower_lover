@@ -1,0 +1,34 @@
+.catalogue {
+}
+
+.catTitle {
+  position: relative;
+  font-weight: 600;
+  font-size: 32px;
+  text-align: right;
+  color: #a93b59;
+  line-height: 1;
+  margin-right: 28px;
+}
+
+.border {
+  position: absolute;
+  transform: translate(-16%, 50%);
+}
+
+@media screen and (min-width: 1440px) {
+  .catTitleWrap {
+    position: relative;
+  }
+
+  .catTitle {
+    position: absolute;
+    transform: translate(250%, -94%);
+  }
+
+  .border {
+    position: absolute;
+    transform: translate(-18%, 50%);
+    width: 530px;
+  }
+}

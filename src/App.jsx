@@ -5,6 +5,7 @@ import Header from "./Components/Header/Header";
 import "./App.css";
 import MobMenu from "./Components/MobMenu/MobMenu";
 import Hero from "./Components/Hero/Hero";
+import Catalogue from "./Components/Catalogue/Catalogue";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,6 +18,7 @@ function App() {
       <Header toggleMenu={toggleMenu} />
       {isMenuOpen && <MobMenu closeMenu={toggleMenu} />}
       <Hero />
+      <Catalogue />
     </>
   );
 }
