@@ -1,0 +1,40 @@
+.hero {
+  max-width: 490px;
+  height: 524px;
+  padding-bottom: 96px;
+
+  background-image: url(../../img/Hero/hero.png);
+  background-size: cover;
+  background-position: right center;
+  margin-left: auto;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-resolution: 192dpi) {
+  .hero {
+    background-image: url(../../img/Hero/hero-2x.png);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    max-width: 768px;
+    height: 640px;
+    padding-bottom: 44px;
+
+    background-image: url(../../img/Hero/hero-desk.png);
+    background-size: cover;
+    background-position: center center;
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-resolution: 192dpi) {
+    .hero {
+      background-image: url(../../img/Hero/hero-desk-2x.png);
+    }
+  }
+}
