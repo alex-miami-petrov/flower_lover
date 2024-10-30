@@ -10,5 +10,11 @@
 <path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M24 8l-16 16"></path>
 <path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M8 8l16 16"></path>
 </symbol>
+<symbol id="icon-down" viewBox="0 0 48 32">
+<path d="M23.998 28.667c-0.531 0.002-1.040-0.209-1.413-0.587l-21.333-21.333c-0.734-0.788-0.713-2.016 0.049-2.778s1.99-0.783 2.778-0.049l19.92 19.92 19.92-19.92c0.788-0.734 2.016-0.713 2.778 0.049s0.783 1.99 0.049 2.778l-21.333 21.333c-0.373 0.378-0.883 0.589-1.413 0.587z"></path>
+</symbol>
+<symbol id="icon-check" viewBox="0 0 57 32">
+<path fill="#a93b59" style="fill: var(--color1, #a93b59)" d="M55.819 1.708l-0.875-0.875c-0.625-0.625-1.5-0.625-2.125 0l-24.375 24.375-24.5-24.375c-0.625-0.625-1.5-0.625-2.125 0l-0.875 0.875c-0.625 0.625-0.625 1.5 0 2.125l26.375 26.375c0.625 0.625 1.5 0.625 2.125 0l26.375-26.375c0.625-0.625 0.625-1.5 0-2.125z"></path>
+</symbol>
 </defs>
 </svg>

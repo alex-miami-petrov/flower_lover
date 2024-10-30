@@ -1,0 +1,118 @@
+.col {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown {
+  width: 100%;
+  background: #b96a7f;
+}
+
+.btn {
+  width: 100%;
+  background-color: #b96a7f;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdownMenu {
+  width: 100%;
+}
+
+.mb3 {
+  width: 328px;
+  display: flex;
+  margin-left: 17px;
+  flex-direction: column;
+}
+
+.dropdownMenu {
+  border-radius: 8px;
+  width: 328px;
+  height: 177px;
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.btnPrimary {
+  text-align: left;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+}
+
+.subBtn {
+  background-color: #a93b59;
+  justify-content: center;
+}
+
+.downIcon {
+  fill: #fff;
+}
+
+.formCheckLabel {
+  margin-left: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+.formCheckInput:checked + .formCheckLabel {
+  color: #a93b59;
+}
+
+.formCheckInput {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #a93b59;
+  border-radius: 4px;
+  background-color: transparent;
+  appearance: none;
+  background-color: transparent;
+}
+
+.formCheck {
+  display: flex;
+  align-items: center;
+}
+
+.formCheckInput:checked {
+  background-color: transparent;
+}
+
+.checkIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  fill: #a93b59;
+  visibility: hidden;
+}
+
+.formCheckInput:checked + .formCheckLabel .checkIcon {
+  visibility: visible;
+}
+
+.formCheckInput:checked::after {
+  content: "✔";
+  font-weight: 300;
+  font-size: 18px;
+  color: #a93b59;
+  position: absolute;
+  left: 0;
+  top: -2px;
+  text-align: center;
+  width: 16px;
+  height: 18px;
+}
+
+.formCheckLabel {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}

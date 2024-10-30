@@ -16,6 +16,23 @@
   transform: translate(-16%, 50%);
 }
 
+.row {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.catSubtitle {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 16px 16px 0 0;
+  width: 360px;
+  height: 32px;
+  background-color: rgba(185, 106, 127, 0.5);
+}
+
 @media screen and (min-width: 1440px) {
   .catTitleWrap {
     position: relative;
