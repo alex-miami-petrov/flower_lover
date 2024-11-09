@@ -6,10 +6,24 @@ import DropdownMenu from "../DropdownMenu/DropdownMenu";
 
 const Catalogue = () => {
   const options1 = ["< 200 ₴ ", "200 - 500 ₴", "> 1000 ₴"];
-  const options2 = ["Чекбокс 2.1", "Чекбокс 2.2"];
-  const options3 = ["Чекбокс 3.1", "Чекбокс 3.2"];
-  const options4 = ["Чекбокс 4.1", "Чекбокс 4.2"];
-  const options5 = ["Чекбокс 5.1", "Чекбокс 5.2"];
+  const options2 = [
+    "Троянда",
+    "Еустома",
+    "Хризантема",
+    "Лілія",
+    "Тюльпан",
+    "Гортензія",
+    "Альстромерія",
+  ];
+  const options3 = ["Жінці", "Чоловіку"];
+  const options4 = ["День народження", "Весілля", "Кохання", "Співчуваю"];
+  const options5 = [
+    "Вільний",
+    "Каркасний",
+    "В коробці",
+    "В кошику",
+    "Каскадний",
+  ];
   return (
     <div className={s.catalogue} id="catalogue">
       <Container>
