@@ -83,7 +83,7 @@
 
 // export default DropdownMenu;
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import icons from "../../img/icons.svg";
 import s from "./DropdownMenu.module.css";
 
@@ -101,6 +101,24 @@ const DropdownMenu = ({ title, options, isOpenDefault = false }) => {
   const [selectedOptions, setSelectedOptions] = useState(
     initialSelectedOptions
   );
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 1440) {
+        setIsOpen(false);
+      } else {
+        setIsOpen(isOpenDefault);
+      }
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [isOpenDefault]);
 
   const toggleDropdown = () => setIsOpen(!isOpen);
 
