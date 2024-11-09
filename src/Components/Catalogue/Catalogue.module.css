@@ -32,6 +32,7 @@
   width: 360px;
   height: 32px;
   background-color: rgba(185, 106, 127, 0.5);
+  padding-bottom: 36px;
 }
 
 .dropMenuWrap {

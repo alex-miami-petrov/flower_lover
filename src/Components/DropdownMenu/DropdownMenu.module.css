@@ -1,6 +1,5 @@
 .col {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .dropdown {
@@ -129,4 +128,30 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .dropdownMenu {
+    width: 224px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 217px;
+  }
+
+  .dropdownMenuFlowery {
+    height: 310px;
+  }
+
+  .dropdownMenuTo {
+    height: 174px;
+  }
+
+  .dropdownMenuReason {
+    height: 260px;
+  }
+
+  .dropdownMenuStyle {
+    height: 250px;
+  }
 }
