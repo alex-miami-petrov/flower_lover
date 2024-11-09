@@ -32,39 +32,41 @@ const Catalogue = () => {
           <img className={s.border} width="490" src={border}></img>
         </div>
 
-        <div className={`${s.container} ${s.mt5}`}>
+        <div className={`${s.dropContainer} ${s.mt5}`}>
           <div className={s.row}>
             <h3 className={s.catSubtitle}>Доставка квітів в Києві</h3>
-            <DropdownMenu
-              title="Ціна ..."
-              options={options1}
-              className={s.dropBtn}
-              isOpenDefault={true}
-            />
-            <DropdownMenu
-              title="Квіти ..."
-              options={options2}
-              className={s.dropBtn}
-              isOpenDefault={false}
-            />
-            <DropdownMenu
-              title="Кому ..."
-              options={options3}
-              className={s.dropBtn}
-              isOpenDefault={false}
-            />
-            <DropdownMenu
-              title="Привід..."
-              options={options4}
-              className={s.dropBtn}
-              isOpenDefault={false}
-            />
-            <DropdownMenu
-              title="Стиль ..."
-              options={options5}
-              className={s.dropBtn}
-              isOpenDefault={false}
-            />
+            <div className={s.dropMenuWrap}>
+              <DropdownMenu
+                title="Ціна ..."
+                options={options1}
+                className={s.dropBtn}
+                isOpenDefault={true}
+              />
+              <DropdownMenu
+                title="Квіти ..."
+                options={options2}
+                className={s.dropBtn}
+                isOpenDefault={false}
+              />
+              <DropdownMenu
+                title="Кому ..."
+                options={options3}
+                className={s.dropBtn}
+                isOpenDefault={false}
+              />
+              <DropdownMenu
+                title="Привід..."
+                options={options4}
+                className={s.dropBtn}
+                isOpenDefault={false}
+              />
+              <DropdownMenu
+                title="Стиль ..."
+                options={options5}
+                className={s.dropBtn}
+                isOpenDefault={false}
+              />
+            </div>
           </div>
         </div>
       </Container>
