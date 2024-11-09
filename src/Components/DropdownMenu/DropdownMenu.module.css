@@ -129,7 +129,7 @@
 
 @media screen and (min-width: 1440px) {
   .dropdownMenu {
-    width: 224px;
+    width: 214px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.5);
     display: flex;
