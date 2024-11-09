@@ -29,7 +29,7 @@ const Catalogue = () => {
       <Container>
         <div className={s.catTitleWrap}>
           <h2 className={s.catTitle}>Каталог</h2>
-          <img className={s.border} width="390" src={border}></img>
+          <img className={s.border} width="490" src={border}></img>
         </div>
 
         <div className={`${s.container} ${s.mt5}`}>

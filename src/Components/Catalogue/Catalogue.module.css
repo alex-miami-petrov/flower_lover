@@ -13,7 +13,8 @@
 
 .border {
   position: absolute;
-  transform: translate(-16%, 50%);
+  transform: translate(-5%, 50%);
+  max-width: 350px;
 }
 
 .row {
@@ -45,11 +46,15 @@
 
   .border {
     position: absolute;
-    transform: translate(-18%, 50%);
-    width: 530px;
+    transform: translate(-11%, 50%);
+    max-width: 492px;
   }
 
   .catSubtitle {
-    padding-top: 60px;
+    margin-top: 100px;
+    font-size: 36px;
+    width: 1085px;
+    height: auto;
+    padding: 10px;
   }
 }

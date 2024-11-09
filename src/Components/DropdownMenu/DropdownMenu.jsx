@@ -117,16 +117,16 @@ const DropdownMenu = ({ title, options, isOpenDefault = false }) => {
   };
 
   // Додавання класів для конкретних title
-  const dropdownClass =
-    title === "Квіти ..."
-      ? `${s.dropdownMenuFlowery} ${s.dropdownMenu}`
-      : title === "Кому ..."
-      ? `${s.dropdownMenuTo} ${s.dropdownMenu}`
-      : title === "Привід ..."
-      ? `${s.dropdownMenuReason} ${s.dropdownMenu}`
-      : title === "Стиль ..."
-      ? `${s.dropdownMenuStyle} ${s.dropdownMenu}`
-      : s.dropdownMenu;
+  const dropdownClassMapping = {
+    "Квіти ...": s.dropdownMenuFlowery,
+    "Кому ...": s.dropdownMenuTo,
+    "Привід ...": s.dropdownMenuReason,
+    "Стиль ...": s.dropdownMenuStyle,
+  };
+
+  const dropdownClass = dropdownClassMapping[title]
+    ? `${dropdownClassMapping[title]} ${s.dropdownMenu}`
+    : s.dropdownMenu;
 
   return (
     <div className={s.col}>
