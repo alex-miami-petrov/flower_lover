@@ -31,8 +31,8 @@ const HitsCard = ({ productId }) => {
 
   return (
     <div>
+      <p>{product.price}</p>
       <h1>{product.name}</h1>
-      <p>Price: {product.price}</p>
     </div>
   );
 };
