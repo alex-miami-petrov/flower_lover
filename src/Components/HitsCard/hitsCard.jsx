@@ -1,32 +1,38 @@
-import React, { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 
-// Компонент картки товару
 const HitsCard = ({ productId }) => {
   const [product, setProduct] = useState(null);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Отримуємо дані про товар з API
-    axios
-      .get(`http://localhost:5000/product/${productId}`)
-      .then((response) => {
+    const fetchProduct = async () => {
+      try {
+        const response = await axios.get(
+          `http://localhost:5000/product/${productId}`
+        );
         setProduct(response.data);
-      })
-      .catch((error) => {
-        console.error("Error fetching product:", error);
-      });
+      } catch (err) {
+        setError("Error fetching product");
+        console.error("Error fetching product:", err);
+      }
+    };
+
+    fetchProduct();
   }, [productId]);
 
-  // Якщо товар ще не завантажений
+  if (error) {
+    return <div>{error}</div>;
+  }
+
   if (!product) {
     return <div>Loading...</div>;
   }
 
   return (
-    <div className="product-card">
-      <h2 className="product-name">{product.name}</h2>
-      <p className="product-price">{product.price}</p>
-      <p className="product-id">ID: {product._id}</p>
+    <div>
+      <h1>{product.name}</h1>
+      <p>Price: {product.price}</p>
     </div>
   );
 };
