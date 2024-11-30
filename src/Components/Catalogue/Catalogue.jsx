@@ -3,7 +3,7 @@ import Container from "../Container/Container";
 import border from "../../img/Catalogue/border.png";
 import s from "./Catalogue.module.css";
 import DropdownMenu from "../DropdownMenu/DropdownMenu";
-// import HitsCard from "../HitsCard/hitsCard.jsx";
+import Hits from "../Hits/hits.jsx";
 
 const Catalogue = () => {
   const options1 = ["< 200 ₴ ", "200 - 500 ₴", "> 1000 ₴"];
@@ -70,7 +70,7 @@ const Catalogue = () => {
             </div>
           </div>
         </div>
-        {/* <HitsCard productId="6739e2e8d59b5794b7fb58b5" /> */}
+        <Hits />
       </Container>
     </div>
   );
