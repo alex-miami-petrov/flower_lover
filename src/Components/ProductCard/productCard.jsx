@@ -4,7 +4,7 @@ import s from "./productCard.module.css";
 const ProductCard = ({ product }) => {
   return (
     <div className={s.productCard}>
-      <div className="s.productImage">
+      <div className={s.productImage}>
         <img src={product.image} alt={product.name} />
         {product.isNew && <span className={s.badgeNew}>Новинка</span>}
         {product.isOnSale && <span className={s.badgeSale}>Акція</span>}
