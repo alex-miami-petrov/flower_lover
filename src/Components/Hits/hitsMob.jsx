@@ -3,12 +3,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/effect-coverflow";
-import s from "./hitsSwiper.module.css";
+import s from "./hitsMob.module.css";
 
 import { EffectCoverflow } from "swiper/modules";
-import ProductCard from "../Components/ProductCard/productCard.jsx";
+import ProductCard from "../ProductCard/productCard.jsx";
 
-const HitsSwiper = ({ products }) => {
+const HitsMob = ({ products }) => {
   return (
     <Swiper
       effect={"coverflow"}
@@ -35,4 +35,4 @@ const HitsSwiper = ({ products }) => {
   );
 };
 
-export default HitsSwiper;
+export default HitsMob;

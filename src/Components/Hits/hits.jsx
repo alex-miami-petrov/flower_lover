@@ -5,8 +5,8 @@ import h1 from "../../img/Hits/h1.png";
 import h2 from "../../img/Hits/h2.png";
 import h3 from "../../img/Hits/h3.png";
 
-import HitsSwiper from "../../swiper/hitsSwiper.jsx";
-import ProductCard from "../ProductCard/productCard.jsx";
+import HitsMob from "./hitsMob.jsx";
+
 import { useState } from "react";
 import HitsDesktop from "./hitsDesktop.jsx";
 
@@ -14,7 +14,7 @@ const products = [
   {
     id: 1,
     name: "Мінібукет 1400-2",
-    // description: "Гарний букет",
+    description: "Хрезантема - 6  шт. (50 см.), Троянда міні  - 4 шт.",
     price: 500,
     oldPrice: 700,
     isOnSale: true,
@@ -65,7 +65,7 @@ const Hits = () => {
       {isDesktop ? (
         <HitsDesktop products={products} />
       ) : (
-        <HitsSwiper products={products} />
+        <HitsMob products={products} />
       )}
     </div>
   );
