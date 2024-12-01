@@ -24,10 +24,26 @@ const ProductCard = ({ product }) => {
 
       <div className={s.productInfo}>
         <h3 className={s.hitsName}>{product.name}</h3>
-        {/* <p>{product.description}</p> */}
+      </div>
+
+      {/* Додатковий блок, який з'являється при hover */}
+      <div className={s.hoverContent}>
+        <p className={s.productDescription}>{product.description}</p>
+        <div className={s.actionArea}>
+          <input
+            type="number"
+            min="1"
+            defaultValue="1"
+            className={s.quantityInput}
+          />
+          <button className={s.orderButton}>Замовити</button>
+        </div>
       </div>
     </div>
   );
 };
 
 export default ProductCard;
+
+{
+}

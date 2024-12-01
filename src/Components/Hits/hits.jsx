@@ -25,7 +25,7 @@ const products = [
   {
     id: 2,
     name: "Мінібукет 1600-6",
-    // description: "Класичний букет",
+    description: "Класичний букет",
     price: 800,
     oldPrice: null,
     isOnSale: false,
@@ -36,7 +36,7 @@ const products = [
   {
     id: 3,
     name: "Троянда Freedom",
-    // description: "51 троянда",
+    description: "51 троянда",
     price: 1000,
     oldPrice: null,
     isOnSale: false,
