@@ -8,6 +8,7 @@ import h3 from "../../img/Hits/h3.png";
 import HitsSwiper from "../../swiper/hitsSwiper.jsx";
 import ProductCard from "../ProductCard/productCard.jsx";
 import { useState } from "react";
+import HitsDesktop from "./hitsDesktop.jsx";
 
 const products = [
   {
@@ -62,11 +63,7 @@ const Hits = () => {
     <div>
       <h2 className={s.hitsTitle}>Хіт продажів</h2>
       {isDesktop ? (
-        <div className={s.productGrid}>
-          {products.map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
-        </div>
+        <HitsDesktop products={products} />
       ) : (
         <HitsSwiper products={products} />
       )}

@@ -75,12 +75,37 @@
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
+    padding-bottom: 20px;
   }
 
   .productImage {
+    position: relative;
     padding: 15px;
   }
   .badgeSale {
-    display: none;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #a93b59;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 22px;
+    padding: 6px 20px;
+    width: 84px;
+    text-transform: uppercase;
+    z-index: 10;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .currentPrice {
+    font-size: 34px;
+  }
+  .oldPrice {
+    font-size: 20px;
+  }
+
+  .hitsName {
+    font-size: 16px;
   }
 }
