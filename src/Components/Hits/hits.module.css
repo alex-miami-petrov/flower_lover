@@ -5,3 +5,16 @@
   font-size: 28px;
   text-align: center;
 }
+
+@media screen and (min-width: 1440px) {
+  .hitsTitle {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .productGrid {
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+  }
+}

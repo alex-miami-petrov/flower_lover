@@ -66,3 +66,21 @@
   /* margin-bottom: 6px; */
   /* height: 40px; */
 }
+
+@media screen and (min-width: 1440px) {
+  .productCard {
+    width: 320px;
+    height: 413px;
+
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+  }
+
+  .productImage {
+    padding: 15px;
+  }
+  .badgeSale {
+    display: none;
+  }
+}
