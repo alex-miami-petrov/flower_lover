@@ -3,10 +3,11 @@
 
   align-items: center;
   gap: 10px;
+  justify-content: center;
 }
 
 .quantityInput {
-  width: 50px;
+  width: 30px;
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -15,15 +16,15 @@
 
 .orderButton {
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
 
   line-height: 2;
   text-align: center;
   color: #fff;
   border-radius: 5px;
   padding: 0px 10px;
-  width: 116px;
+  width: 100px;
   background-color: #a93b59;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -34,16 +35,36 @@
 }
 
 .btn {
-  padding: 5px 10px;
-  background-color: #d48888;
-  color: white;
-  border: none;
+  border: 1px solid #e6e6e6;
+  padding: 2px 8px;
+  background-color: transparent;
+  color: black;
+  flex-shrink: 1;
+
   border-radius: 4px;
-  cursor: pointer;
+
   font-size: 14px;
 }
 
 .btn:disabled {
   background-color: #ccc;
   cursor: not-allowed;
+}
+
+@media screen and (min-width: 1440px) {
+  .quantityInput {
+    width: 50px;
+  }
+  .orderButton {
+    font-weight: 600;
+    font-size: 16px;
+
+    width: 116px;
+  }
+
+  .btn {
+    padding: 5px 10px;
+
+    font-size: 14px;
+  }
 }
