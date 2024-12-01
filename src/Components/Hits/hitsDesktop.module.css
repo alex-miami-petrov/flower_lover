@@ -27,3 +27,14 @@
 .hitsDeskBtn:hover {
   background-color: #a93b59;
 }
+
+.productDescription {
+}
+
+.hoverContent {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+  text-align: left;
+}

@@ -101,38 +101,6 @@
   line-height: 1.4;
 }
 
-.actionArea {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-}
-
-.quantityInput {
-  width: 50px;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.orderButton {
-  flex-grow: 1;
-  background-color: #a93b59;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  padding: 8px 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.orderButton:hover {
-  background-color: #d48888;
-  color: #fff;
-}
-
 @media screen and (min-width: 1440px) {
   .productCard {
     width: 320px;
