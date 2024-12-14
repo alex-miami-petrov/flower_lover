@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import s from "./productCard.module.css";
+import icons from "../../img/icons.svg";
 import OrderMenu from "./orderMenu.jsx";
 
 const ProductCard = ({ product }) => {
@@ -25,9 +26,23 @@ const ProductCard = ({ product }) => {
     <div className={s.productCard}>
       <div className={s.productImage}>
         <img src={product.image} alt={product.name} />
-        {product.isNew && <span className={s.badgeNew}>Новинка</span>}
+        {product.isNew && (
+          <span className={s.badgeNew}>
+            <svg className={s.newIcon} width="15">
+              <use href={`${icons}#icon-new`} />
+            </svg>
+            Новинка
+          </span>
+        )}
         {product.isOnSale && <span className={s.badgeSale}>Акція</span>}
-        {product.hasWater && <span className={s.badgeWater}>З водою</span>}
+        {product.hasWater && (
+          <span className={s.badgeWater}>
+            <svg className={s.waterIcon} width="11">
+              <use href={`${icons}#icon-water`} />
+            </svg>
+            З водою
+          </span>
+        )}
       </div>
 
       <div className={s.productPricing}>

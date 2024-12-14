@@ -4,6 +4,9 @@ import s from "./hits.module.css";
 import h1 from "../../img/Hits/h1.png";
 import h2 from "../../img/Hits/h2.png";
 import h3 from "../../img/Hits/h3.png";
+import h4 from "../../img/Hits/h4.png";
+import h5 from "../../img/Hits/h5.png";
+import h6 from "../../img/Hits/h6.png";
 
 import HitsMob from "./hitsMob.jsx";
 
@@ -53,7 +56,7 @@ const products = [
     isOnSale: false,
     isNew: false,
     hasWater: false,
-    image: h3,
+    image: h4,
   },
   {
     id: 5,
@@ -64,7 +67,7 @@ const products = [
     isOnSale: false,
     isNew: true,
     hasWater: false,
-    image: h3,
+    image: h5,
   },
   {
     id: 6,
@@ -75,7 +78,7 @@ const products = [
     isOnSale: false,
     isNew: false,
     hasWater: true,
-    image: h3,
+    image: h6,
   },
 ];
 

@@ -159,12 +159,16 @@
     border: 2px solid #fff;
     border-radius: 22px;
     padding: 3px 20px;
-    width: 134px;
+    min-width: 134px;
     height: 31px;
     text-align: center;
     text-transform: uppercase;
     z-index: 10;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
   }
 
   .badgeWater {
@@ -177,12 +181,16 @@
     border: 2px solid transparent;
     border-radius: 22px;
     padding: 3px 20px;
-    width: 128px;
+    min-width: 128px;
     text-align: center;
     text-transform: uppercase;
     height: 31px;
     z-index: 10;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
   }
 
   .currentPrice {
