@@ -7,7 +7,7 @@ import Container from "../Container/Container";
 
 export const Hero = () => {
   return (
-    <div className={s.hero} id="home">
+    <section className={s.hero} id="home">
       <Container>
         <div className={s.heroWrap}>
           <h1 className={s.heroTitle}>
@@ -58,7 +58,7 @@ export const Hero = () => {
           </div>
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 

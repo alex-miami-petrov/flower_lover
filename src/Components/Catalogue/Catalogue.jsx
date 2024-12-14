@@ -26,7 +26,7 @@ const Catalogue = () => {
     "Каскадний",
   ];
   return (
-    <div className={s.catalogue} id="catalogue">
+    <section className={s.catalogue} id="catalogue">
       <Container>
         <div className={s.catTitleWrap}>
           <h2 className={s.catTitle}>Каталог</h2>
@@ -72,7 +72,7 @@ const Catalogue = () => {
         </div>
         <Hits />
       </Container>
-    </div>
+    </section>
   );
 };
 

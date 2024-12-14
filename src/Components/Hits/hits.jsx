@@ -44,7 +44,39 @@ const products = [
     hasWater: false,
     image: h3,
   },
-  // Додайте інші товари
+  {
+    id: 4,
+    name: "Мінібукет 1400-3",
+    description: "Мінібукет",
+    price: 680,
+    oldPrice: null,
+    isOnSale: false,
+    isNew: false,
+    hasWater: false,
+    image: h3,
+  },
+  {
+    id: 5,
+    name: "«Бархатний сезон»",
+    description: "Бархатний сезон",
+    price: 450,
+    oldPrice: null,
+    isOnSale: false,
+    isNew: true,
+    hasWater: false,
+    image: h3,
+  },
+  {
+    id: 6,
+    name: "Нобіліс",
+    description: "Нобіліс",
+    price: 68,
+    oldPrice: null,
+    isOnSale: false,
+    isNew: false,
+    hasWater: true,
+    image: h3,
+  },
 ];
 
 const Hits = () => {

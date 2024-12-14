@@ -2,15 +2,18 @@
   display: flex;
   gap: 75px;
   justify-content: center;
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+}
+
+.productGridExpanded {
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  justify-content: center;
+  gap: 50px 30px;
 }
 
 .hitsDeskBtn {
   font-family: "Source Sans Pro", sans-serif;
-
   font-size: 16px;
-
   line-height: 1.25;
   letter-spacing: 0.1em;
   text-transform: uppercase;

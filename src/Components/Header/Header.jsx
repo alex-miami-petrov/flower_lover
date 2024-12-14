@@ -7,7 +7,7 @@ import NavBar from "./NavBar";
 
 const Header = ({ toggleMenu }) => {
   return (
-    <div className={s.header}>
+    <section className={s.header}>
       <Container>
         <div className={s.headWrap}>
           <a href="/" className={s.logoLink}>
@@ -36,7 +36,7 @@ const Header = ({ toggleMenu }) => {
           </div>
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 
