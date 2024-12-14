@@ -79,7 +79,7 @@
   /* height: 40px; */
 }
 
-.hoverContent {
+/* .hoverContent {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -99,6 +99,29 @@
 
 .productCard:hover .hoverContent {
   opacity: 1;
+} */
+
+.hoverContent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: left;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  opacity: 0;
+  background-color: transparent;
+  transition: opacity 0.5s ease, max-height 0.5s ease;
+  max-height: 0;
+  margin-bottom: 15px;
+}
+
+.productCard:hover .hoverContent {
+  opacity: 1;
+  max-height: 300px;
 }
 
 .productDescription {
