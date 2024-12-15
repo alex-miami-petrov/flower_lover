@@ -6,7 +6,6 @@ import OrderMenu from "./orderMenu.jsx";
 const ProductCard = ({ product }) => {
   const [productCount, setProductCount] = useState(product.count || 1);
 
-  // Функції для зменшення та збільшення кількості
   const decreaseProductCount = (item) => {
     if (productCount > 1) {
       setProductCount(productCount - 1);
@@ -19,7 +18,7 @@ const ProductCard = ({ product }) => {
 
   const handleOrder = (item, quantity) => {
     console.log(`Замовлення на ${quantity} шт. товару: ${item.name}`);
-    // Тут можна додати логіку для відправки замовлення на сервер чи обробки
+    //  додати логіку для відправки замовлення на сервер чи обробки
   };
 
   return (

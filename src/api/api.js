@@ -2,7 +2,7 @@ import axios from "axios";
 
 const BASE_URL = "https://nodejs-hw-mongodb-4vnp.onrender.com";
 
-const fetchData = async () => {
+export const fetchData = async () => {
   try {
     const response = await axios.get(`${BASE_URL}/`, {
       headers: { "Content-Type": "application/json" },
@@ -12,5 +12,3 @@ const fetchData = async () => {
     console.error("Помилка запиту:", error);
   }
 };
-
-fetchData();
