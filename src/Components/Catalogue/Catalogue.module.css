@@ -42,6 +42,11 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .catalogue {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+
   .catTitleWrap {
     position: relative;
   }

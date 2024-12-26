@@ -6,6 +6,7 @@ import "./App.css";
 import MobMenu from "./Components/MobMenu/MobMenu";
 import Hero from "./Components/Hero/Hero";
 import Catalogue from "./Components/Catalogue/Catalogue";
+import AboutUs from "./Components/AboutUs/AboutUs.jsx";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,6 +20,7 @@ function App() {
       {isMenuOpen && <MobMenu closeMenu={toggleMenu} />}
       <Hero />
       <Catalogue />
+      <AboutUs />
     </>
   );
 }
