@@ -68,7 +68,9 @@
   }
   .aboutText {
     font-size: 20px;
+    font-weight: 300;
     margin-bottom: 0;
+    max-width: 526px;
   }
   .aboutSpan {
     font-weight: 600;
@@ -78,5 +80,19 @@
 
     width: 659px;
     height: 477px;
+  }
+  .aboutDeskWrap {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+  }
+  .aboutItem {
+    display: flex;
+
+    align-items: center;
+  }
+
+  .aboutItem.reverse .aboutDeskWrap {
+    flex-direction: row-reverse;
   }
 }

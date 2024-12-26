@@ -26,86 +26,100 @@ const AboutUs = () => {
 
         <ul className={s.aboutList}>
           <li className={s.aboutItem}>
-            <picture>
-              <source
-                srcSet={`${about1_desk} 1x, ${about1_desk_2x} 2x`}
-                media="(min-width: 1440px)"
-              />
-              <source
-                srcSet={`${about1} 1x, ${about1_2x} 2x`}
-                media="(min-width: 390px)"
-              />
-              <img
-                src={about1}
-                alt="flower"
-                className={s.aboutImg}
-                width="342"
-                height="200"
-              />
-            </picture>
-            <h3 className={s.aboutSub}>Контроль свіжості квітів</h3>
-            <p className={s.aboutText}>
-              Ми співпрацюємо з кращими постачальниками квітів і готові
-              запропонувати{" "}
-              <span className={s.aboutSpan}>Вам широкий асортимент квітів</span>
-              , починаючи від місцевих сортів і закінчуючи рідкісними
-              імпортованими варіантами. <br />
-              <br />
-              Ваша близька людина отримає найкращий подарунок, адже ми ретельно
-              підбираємо кожну квітку для вашого букету.
-            </p>
+            <div className={s.aboutDeskWrap}>
+              <picture>
+                <source
+                  srcSet={`${about1_desk} 1x, ${about1_desk_2x} 2x`}
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcSet={`${about1} 1x, ${about1_2x} 2x`}
+                  media="(min-width: 390px)"
+                />
+                <img
+                  src={about1}
+                  alt="flower"
+                  className={s.aboutImg}
+                  width="342"
+                  height="200"
+                />
+              </picture>
+              <div className={s.aboutTextWrap}>
+                <h3 className={s.aboutSub}>Контроль свіжості квітів</h3>
+                <p className={s.aboutText}>
+                  Ми співпрацюємо з кращими постачальниками квітів і готові
+                  запропонувати{" "}
+                  <span className={s.aboutSpan}>
+                    Вам широкий асортимент квітів
+                  </span>
+                  , починаючи від місцевих сортів і закінчуючи рідкісними
+                  імпортованими варіантами. <br />
+                  <br />
+                  Ваша близька людина отримає найкращий подарунок, адже ми
+                  ретельно підбираємо кожну квітку для вашого букету.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li className={`${s.aboutItem} ${s.reverse}`}>
+            <div className={s.aboutDeskWrap}>
+              <picture>
+                <source
+                  srcSet={`${about2_desk} 1x, ${about2_desk_2x} 2x`}
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcSet={`${about2} 1x, ${about2_2x} 2x`}
+                  media="(min-width: 390px)"
+                />
+                <img
+                  src={about2}
+                  alt="flowers"
+                  className={s.aboutImg}
+                  width="342"
+                  height="200"
+                />
+              </picture>
+              <div className={s.aboutTextWrap}>
+                <h3 className={s.aboutSub}>Оформлення букетів</h3>
+                <p className={s.aboutText}>
+                  Ми готові зібрати{" "}
+                  <span className={s.aboutSpan}>
+                    Унікальний Букет По Індивідуальному Замовленню
+                  </span>
+                  . Наші флористи втілять в життя будь яку Вашу ідею!
+                </p>
+              </div>
+            </div>
           </li>
           <li className={s.aboutItem}>
-            <picture>
-              <source
-                srcSet={`${about2_desk} 1x, ${about2_desk_2x} 2x`}
-                media="(min-width: 1440px)"
-              />
-              <source
-                srcSet={`${about2} 1x, ${about2_2x} 2x`}
-                media="(min-width: 390px)"
-              />
-              <img
-                src={about2}
-                alt="flowers"
-                className={s.aboutImg}
-                width="342"
-                height="200"
-              />
-            </picture>
-            <h3 className={s.aboutSub}>Оформлення букетів</h3>
-            <p className={s.aboutText}>
-              Ми готові зібрати
-              <span className={s.aboutSpan}>
-                Унікальний Букет По Індивідуальному Замовленню
-              </span>
-              . Наші флористи втілять в життя будь яку Вашу ідею!
-            </p>
-          </li>
-          <li className={s.aboutItem}>
-            <picture>
-              <source
-                srcSet={`${about3_desk} 1x, ${about3_desk_2x} 2x`}
-                media="(min-width: 1440px)"
-              />
-              <source
-                srcSet={`${about3} 1x, ${about3_2x} 2x`}
-                media="(min-width: 390px)"
-              />
-              <img
-                src={about3}
-                alt="bouquet"
-                className={s.aboutImg}
-                width="342"
-                height="200"
-              />
-            </picture>
-            <h3 className={s.aboutSub}>Швидка доставка</h3>
-            <p className={s.aboutText}>
-              Ми робимо доставки по Україні протягом{" "}
-              <span className={s.aboutSpan}>3-х годин</span> з моменту оплати
-              замовлення.
-            </p>
+            <div className={s.aboutDeskWrap}>
+              <picture>
+                <source
+                  srcSet={`${about3_desk} 1x, ${about3_desk_2x} 2x`}
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcSet={`${about3} 1x, ${about3_2x} 2x`}
+                  media="(min-width: 390px)"
+                />
+                <img
+                  src={about3}
+                  alt="bouquet"
+                  className={s.aboutImg}
+                  width="342"
+                  height="200"
+                />
+              </picture>
+              <div className={s.aboutTextWrap}>
+                <h3 className={s.aboutSub}>Швидка доставка</h3>
+                <p className={s.aboutText}>
+                  Ми робимо доставки по Україні протягом{" "}
+                  <span className={s.aboutSpan}>3-х годин</span> з моменту
+                  оплати замовлення.
+                </p>
+              </div>
+            </div>
           </li>
         </ul>
       </Container>
