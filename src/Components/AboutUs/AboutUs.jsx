@@ -21,7 +21,7 @@ const AboutUs = () => {
       <Container>
         <div className={s.aboutTitleWrap}>
           <h2 className={s.aboutTitle}>Якість в деталях</h2>
-          <img className={s.border} width="350" src={border} alt="Border" />
+          <img className={s.border} width="350" src={border} alt="border" />
         </div>
 
         <ul className={s.aboutList}>

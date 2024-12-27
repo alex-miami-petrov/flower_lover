@@ -1,0 +1,28 @@
+.orderTitle {
+  position: relative;
+  font-weight: 600;
+  line-height: 1.2;
+  font-size: 32px;
+  color: #a93b59;
+}
+
+.border {
+  position: absolute;
+  transform: translate(-5%, 50%);
+  max-width: 350px;
+}
+
+.orderTitleWrap {
+  margin-bottom: 24px;
+}
+
+.orderSub {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.orderSpan {
+  font-weight: 600;
+  color: #f5ebeb;
+}
