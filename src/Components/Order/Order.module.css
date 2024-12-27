@@ -18,6 +18,8 @@
 
 .orderTitleWrap {
   margin-bottom: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .orderSub {
@@ -25,6 +27,8 @@
   font-weight: 400;
   font-size: 24px;
   margin-bottom: 24px;
+  padding-left: 16px;
+  padding-top: 16px;
 }
 
 .orderSpan {
@@ -38,6 +42,7 @@
   margin-bottom: 24px;
   font-size: 24px;
   text-align: right;
+  padding-right: 16px;
 }
 
 .listWrap {
@@ -61,4 +66,14 @@
 
 .checkIcon {
   flex-shrink: 0;
+  fill: #822740;
+}
+
+.orderWrap {
+  background: rgba(185, 106, 127, 0.7);
+}
+
+.managerInfo {
+  padding-left: 16px;
+  padding-bottom: 16px;
 }

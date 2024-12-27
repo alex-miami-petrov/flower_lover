@@ -58,7 +58,7 @@
 // export default Order;
 
 import React from "react";
-import Container from "../Container/Container.jsx";
+// import Container from "../Container/Container.jsx";
 import s from "./Order.module.css";
 import border from "../../img/Catalogue/border.png";
 import icons from "../../img/icons.svg";
@@ -67,13 +67,13 @@ import OrderForm from "../OrderForm/OrderForm.jsx";
 const Order = () => {
   return (
     <section className={s.order} id="order">
-      <Container>
-        <div className={s.orderTitleWrap}>
-          <h2 className={s.orderTitle}>
-            Не можете визначитись з вибором букету?
-          </h2>
-          <img className={s.border} width="350" src={border} alt="border" />
-        </div>
+      <div className={s.orderTitleWrap}>
+        <h2 className={s.orderTitle}>
+          Не можете визначитись з вибором букету?
+        </h2>
+        <img className={s.border} width="350" src={border} alt="border" />
+      </div>
+      <div className={s.orderWrap}>
         <h3 className={s.orderSub}>
           <span className={s.orderSpan}>Відправте заявку</span>
           <br /> і Вам зателефонують
@@ -86,7 +86,7 @@ const Order = () => {
             <li>
               <div className={s.listWrap}>
                 <svg className={s.checkIcon} width="27" height="20">
-                  <use href={`${icons}#icon-check`} />
+                  <use href={`${icons}#icon-ok`} />
                 </svg>
                 <p className={s.listText}>
                   <span className={s.listSpan}>Відповість</span> на будь-які
@@ -97,7 +97,7 @@ const Order = () => {
             <li>
               <div className={s.listWrap}>
                 <svg className={s.checkIcon} width="27" height="20">
-                  <use href={`${icons}#icon-check`} />
+                  <use href={`${icons}#icon-ok`} />
                 </svg>
                 <p className={s.listText}>
                   <span className={s.listSpan}>Підбере рішення</span> відповідно
@@ -108,7 +108,7 @@ const Order = () => {
             <li>
               <div className={s.listWrap}>
                 <svg className={s.checkIcon} width="27" height="20">
-                  <use href={`${icons}#icon-check`} />
+                  <use href={`${icons}#icon-ok`} />
                 </svg>
                 <p className={s.listText}>
                   <span className={s.listSpan}>
@@ -121,7 +121,7 @@ const Order = () => {
             <li>
               <div className={s.listWrap}>
                 <svg className={s.checkIcon} width="27" height="20">
-                  <use href={`${icons}#icon-check`} />
+                  <use href={`${icons}#icon-ok`} />
                 </svg>
                 <p className={s.listText}>
                   <span className={s.listSpan}>Оформить</span> для Вас
@@ -131,7 +131,7 @@ const Order = () => {
             </li>
           </ul>
         </div>
-      </Container>
+      </div>
     </section>
   );
 };
