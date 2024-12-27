@@ -57,7 +57,7 @@
 
 // export default Order;
 
-import React from "react";
+import React, { useState } from "react";
 // import Container from "../Container/Container.jsx";
 import s from "./Order.module.css";
 import border from "../../img/Catalogue/border.png";
@@ -65,6 +65,11 @@ import icons from "../../img/icons.svg";
 import OrderForm from "../OrderForm/OrderForm.jsx";
 
 const Order = () => {
+  const [formSubmitted, setFormSubmitted] = useState(false);
+
+  const handleFormSubmit = (formData) => {
+    setFormSubmitted(true);
+  };
   return (
     <section className={s.order} id="order">
       <div className={s.orderTitleWrap}>
@@ -79,7 +84,7 @@ const Order = () => {
           <br /> і Вам зателефонують
           <br /> протягом однієї хвилини
         </h3>
-        <OrderForm />
+        <OrderForm onFormSubmit={handleFormSubmit} />
         <div className={s.managerInfo}>
           <h4 className={s.orderLowSub}>Наш менеджер по телефону:</h4>
           <ul className={s.managerList}>

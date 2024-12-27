@@ -8,6 +8,7 @@
 
 .inputGroup {
   position: relative;
+  margin-bottom: 16px;
 }
 
 .input {
@@ -50,11 +51,14 @@
 }
 
 .errorGroup .input {
-  border-color: red;
+  border-color: #93052b;
 }
 
 .error {
-  color: red;
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  color: #93052b;
   font-size: 12px;
   margin-top: 5px;
 }
@@ -78,4 +82,61 @@
 
 .submitButton:hover {
   background-color: #93052b;
+}
+
+/* Модальне вікно */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: rgba(15, 15, 16, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  position: absolute;
+  background-color: rgba(185, 106, 127, 0.7);
+  padding: 16px;
+
+  text-align: center;
+  border-radius: 10px;
+  max-width: 358px;
+  max-height: 240px;
+}
+
+.closeModalButton {
+  position: relative;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  left: 40%;
+  transform: translateY(-20%);
+}
+
+.closeModalButton:focus-visible {
+  outline: none;
+}
+
+.modalTitle {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+
+  line-height: 1.25;
+  color: #822740;
+}
+
+.modalText {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 2px solid #b02e51;
+  padding-bottom: 24px;
 }
