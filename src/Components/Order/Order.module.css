@@ -136,15 +136,7 @@
   .listSpan {
     font-size: 16px;
   }
-  .managerList li:nth-child(3) {
-    max-width: 389px;
-  }
-  .managerList li:nth-child(1) {
-    max-width: 294px;
-  }
-  .managerList li:nth-child(2) {
-    max-width: 273px;
-  }
+
   .checkIcon {
     width: 33px;
     height: 25px;

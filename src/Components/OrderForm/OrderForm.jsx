@@ -70,7 +70,7 @@ const OrderForm = ({ onFormSubmit }) => {
               value={formData.phone}
               onChange={(e) => {
                 handleChange(e);
-                setErrors((prevErrors) => ({ ...prevErrors, phone: "" })); // Очистити помилку на зміну
+                setErrors((prevErrors) => ({ ...prevErrors, phone: "" }));
               }}
               placeholder="Телефон"
               className={s.input}

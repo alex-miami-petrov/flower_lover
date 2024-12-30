@@ -155,4 +155,22 @@
   .submitButton {
     margin-top: 0;
   }
+  .modalContent {
+    border-radius: 10px;
+    max-width: 1440px;
+    max-height: 564px;
+  }
+  .closeModalButton {
+    width: 26px;
+    height: 26px;
+    left: 40%;
+    transform: translateY(-20%);
+  }
+  .modalText {
+    font-size: 24px;
+    padding-bottom: 16px;
+  }
+  .modalTitle {
+    font-size: 36px;
+  }
 }
