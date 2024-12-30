@@ -86,12 +86,15 @@ const Order = () => {
         />
       </div>
       <div className={s.orderWrap}>
-        <h3 className={s.orderSub}>
-          <span className={s.orderSpan}>Відправте заявку</span>
-          <br /> і Вам зателефонують
-          <br /> протягом однієї хвилини
-        </h3>
-        <OrderForm onFormSubmit={handleFormSubmit} />
+        <div className={s.orderFormWrap}>
+          <h3 className={s.orderSub}>
+            <span className={s.orderSpan}>Відправте заявку</span>
+            <br /> і Вам зателефонують
+            <br /> протягом однієї хвилини
+          </h3>
+          <OrderForm onFormSubmit={handleFormSubmit} />
+        </div>
+
         <div className={s.managerInfo}>
           <h4 className={s.orderLowSub}>Наш менеджер по телефону:</h4>
           <ul className={s.managerList}>
@@ -125,7 +128,7 @@ const Order = () => {
                 <p className={s.listText}>
                   <span className={s.listSpan}>
                     Підготує унікальну пропозицію
-                  </span>
+                  </span>{" "}
                   та детально розповість Вам про наші букети
                 </p>
               </div>

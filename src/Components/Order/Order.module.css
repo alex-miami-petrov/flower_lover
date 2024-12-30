@@ -106,4 +106,55 @@
   .borderOrderDesk {
     display: unset;
   }
+
+  .orderSub {
+    font-size: 32px;
+    margin-bottom: 40px;
+    padding-top: 36px;
+  }
+  .orderWrap {
+    display: flex;
+    padding-bottom: 86px;
+    gap: 306px;
+  }
+  .orderFormWrap {
+    padding-left: 119px;
+    display: flex;
+    flex-direction: column;
+  }
+  .orderLowSub {
+    margin-top: 36px;
+    text-align: left;
+    font-size: 32px;
+    margin-bottom: 39px;
+  }
+  .listText {
+    font-size: 14px;
+    max-width: 294px;
+    line-height: 1.8;
+  }
+  .listSpan {
+    font-size: 16px;
+  }
+  .managerList li:nth-child(3) {
+    max-width: 389px;
+  }
+  .managerList li:nth-child(1) {
+    max-width: 294px;
+  }
+  .managerList li:nth-child(2) {
+    max-width: 273px;
+  }
+  .checkIcon {
+    width: 33px;
+    height: 25px;
+  }
+  .managerList {
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+  }
+  .managerInfo {
+    padding-left: 0px;
+  }
 }
