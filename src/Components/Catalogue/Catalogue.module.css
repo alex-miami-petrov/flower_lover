@@ -43,8 +43,20 @@
 
 @media screen and (min-width: 1440px) {
   .catalogue {
-    padding-top: 140px;
+    padding-top: 290px;
     padding-bottom: 140px;
+    background-image: url(../../img/Catalogue/catalogue_bcg.png);
+    background-size: 830px 1115px;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-resolution: 192dpi) {
+    .catalogue {
+      background-image: url(../../img/Catalogue/catalogue_bcg_2x.png);
+    }
   }
 
   .catTitleWrap {
@@ -53,13 +65,14 @@
 
   .catTitle {
     position: absolute;
-    transform: translate(250%, -94%);
+    transform: translate(110%, -94%);
+    font-size: 36px;
   }
 
   .border {
     position: absolute;
-    transform: translate(-11%, 50%);
-    max-width: 492px;
+    transform: translate(-18%, 50%);
+    max-width: 350px;
   }
 
   .catSubtitle {
