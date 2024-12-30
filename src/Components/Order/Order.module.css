@@ -16,6 +16,10 @@
   max-width: 350px;
 }
 
+.borderOrderDesk {
+  display: none;
+}
+
 .orderTitleWrap {
   margin-bottom: 24px;
   padding-left: 16px;
@@ -76,4 +80,30 @@
 .managerInfo {
   padding-left: 16px;
   padding-bottom: 16px;
+}
+
+@media screen and (min-width: 1440px) {
+  .order {
+    padding-bottom: 121px;
+  }
+
+  .orderTitle {
+    font-size: 36px;
+    padding-left: 60px;
+    line-height: 0.3;
+  }
+
+  .orderTitleWrap {
+    margin-bottom: 140px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .border {
+    display: none;
+  }
+
+  .borderOrderDesk {
+    display: unset;
+  }
 }

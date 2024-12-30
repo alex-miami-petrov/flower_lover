@@ -61,6 +61,7 @@ import React, { useState } from "react";
 // import Container from "../Container/Container.jsx";
 import s from "./Order.module.css";
 import border from "../../img/Catalogue/border.png";
+import borderOrderDesk from "../../img/Order/border_order_desk.jpg";
 import icons from "../../img/icons.svg";
 import OrderForm from "../OrderForm/OrderForm.jsx";
 
@@ -77,6 +78,12 @@ const Order = () => {
           Не можете визначитись з вибором букету?
         </h2>
         <img className={s.border} width="350" src={border} alt="border" />
+        <img
+          className={s.borderOrderDesk}
+          width="823"
+          src={borderOrderDesk}
+          alt="border"
+        />
       </div>
       <div className={s.orderWrap}>
         <h3 className={s.orderSub}>

@@ -6,8 +6,8 @@ import line from "../../img/OrderForm/line.jpg";
 const OrderForm = ({ onFormSubmit }) => {
   const [formData, setFormData] = useState({ name: "", phone: "" });
   const [errors, setErrors] = useState({});
-  const [submitted, setSubmitted] = useState(false); // Стан для подяки
-  const [showModal, setShowModal] = useState(false); // Стан для модального вікна
+  const [submitted, setSubmitted] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
