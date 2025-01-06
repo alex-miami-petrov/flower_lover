@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ProductCard from "../ProductCard/productCard.jsx";
+import ProductCard from "../ProductCard/ProductCard.jsx";
 import s from "./HitsDesktop.module.css";
 
 const HitsDesktop = ({ products }) => {

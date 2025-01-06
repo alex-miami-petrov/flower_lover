@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import s from "./orderMenu.module.css";
+import s from "./OrderMenu.module.css";
 
 const OrderMenu = ({ item, onDecrease, onIncrease, onOrder }) => {
   const [quantity, setQuantity] = useState(item.count || 1);

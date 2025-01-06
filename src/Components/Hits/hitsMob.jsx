@@ -6,7 +6,7 @@ import "swiper/css/effect-coverflow";
 import s from "./HitsMob.module.css";
 
 import { EffectCoverflow } from "swiper/modules";
-import ProductCard from "../ProductCard/productCard.jsx";
+import ProductCard from "../ProductCard/ProductCard.jsx";
 
 const HitsMob = ({ products }) => {
   return (

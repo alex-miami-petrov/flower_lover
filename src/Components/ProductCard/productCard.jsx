@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import s from "./productCard.module.css";
+import s from "./ProductCard.module.css";
 import icons from "../../img/icons.svg";
 import OrderMenu from "./OrderMenu.jsx";
 

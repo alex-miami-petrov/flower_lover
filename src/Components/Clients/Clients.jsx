@@ -2,6 +2,7 @@ import React from "react";
 import s from "./Clients.module.css";
 import Container from "../Container/Container.jsx";
 import border from "../../img/Catalogue/border.png";
+import ClientsMob from "./ClientsMob.jsx";
 
 const Clients = () => {
   return (
@@ -12,6 +13,7 @@ const Clients = () => {
           <img className={s.border} width="350" src={border} alt="border" />
         </div>
       </Container>
+      <ClientsMob />
     </section>
   );
 };
