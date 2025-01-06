@@ -23,10 +23,10 @@ const HitsMob = ({ products }) => {
         slideShadows: false,
       }}
       modules={[EffectCoverflow]}
-      className={s.productSwiper}
+      className={s.hitsSwiper}
     >
       {products.map((product) => (
-        <SwiperSlide key={product.id}>
+        <SwiperSlide key={product.id} className={s.hitsSlide}>
           <ProductCard product={product} />
         </SwiperSlide>
       ))}
@@ -61,10 +61,10 @@ export default HitsMob;
 //         slideShadows: false,
 //       }}
 //       modules={[EffectCoverflow]}
-//       className={s.productSwiper}
+//       className={s.hitsSwiper}
 //     >
 //       {products.map((product) => (
-//         <SwiperSlide key={product._id}>
+//         <SwiperSlide key={product._id} className={s.hitsSlide}>
 //           <ProductCard product={product} />
 //         </SwiperSlide>
 //       ))}
