@@ -3,7 +3,7 @@ import Container from "../Container/Container";
 import border from "../../img/Catalogue/border.png";
 import s from "./Catalogue.module.css";
 import DropdownMenu from "../DropdownMenu/DropdownMenu";
-import Hits from "../Hits/hits.jsx";
+import Hits from "../Hits/Hits.jsx";
 
 const Catalogue = () => {
   const options1 = ["< 200 ₴ ", "200 - 500 ₴", "> 1000 ₴"];

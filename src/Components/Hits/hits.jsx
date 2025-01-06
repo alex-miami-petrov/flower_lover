@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-import s from "./hits.module.css";
+import s from "./Hits.module.css";
 import h1 from "../../img/Hits/h1.png";
 import h2 from "../../img/Hits/h2.png";
 import h3 from "../../img/Hits/h3.png";
@@ -8,10 +8,10 @@ import h4 from "../../img/Hits/h4.png";
 import h5 from "../../img/Hits/h5.png";
 import h6 from "../../img/Hits/h6.png";
 
-import HitsMob from "./hitsMob.jsx";
+import HitsMob from "./HitsMob.jsx";
 
 import { useState } from "react";
-import HitsDesktop from "./hitsDesktop.jsx";
+import HitsDesktop from "./HitsDesktop.jsx";
 
 const products = [
   {

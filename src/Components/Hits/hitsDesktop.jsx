@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ProductCard from "../ProductCard/productCard.jsx";
-import s from "./hitsDesktop.module.css";
+import s from "./HitsDesktop.module.css";
 
 const HitsDesktop = ({ products }) => {
   const [showAll, setShowAll] = useState(false);

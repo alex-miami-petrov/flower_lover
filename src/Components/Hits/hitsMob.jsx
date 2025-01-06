@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/effect-coverflow";
-import s from "./hitsMob.module.css";
+import s from "./HitsMob.module.css";
 
 import { EffectCoverflow } from "swiper/modules";
 import ProductCard from "../ProductCard/productCard.jsx";
