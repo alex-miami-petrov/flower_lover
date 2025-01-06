@@ -9,6 +9,7 @@ import Catalogue from "./Components/Catalogue/Catalogue";
 import AboutUs from "./Components/AboutUs/AboutUs.jsx";
 import Order from "./Components/Order/Order.jsx";
 import Clients from "./Components/Clients/Clients.jsx";
+import Footer from "./Components/Footer/Footer.jsx";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,6 +26,7 @@ function App() {
       <AboutUs />
       <Order />
       <Clients />
+      <Footer />
     </>
   );
 }

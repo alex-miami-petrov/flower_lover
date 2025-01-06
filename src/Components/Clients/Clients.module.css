@@ -1,3 +1,7 @@
+.clients {
+  position: relative;
+}
+
 .clientTitleWrap {
   margin-bottom: 24px;
 }
