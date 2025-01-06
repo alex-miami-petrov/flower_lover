@@ -1,0 +1,18 @@
+.clientTitleWrap {
+  margin-bottom: 24px;
+}
+
+.clientTitle {
+  position: relative;
+  font-weight: 600;
+  line-height: 1;
+  font-size: 32px;
+  color: #a93b59;
+  margin-left: 18px;
+}
+
+.border {
+  position: absolute;
+  transform: translate(5%, 50%);
+  max-width: 350px;
+}
