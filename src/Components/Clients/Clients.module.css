@@ -20,3 +20,16 @@
   transform: translate(7%, 50%);
   max-width: 350px;
 }
+
+@media screen and (min-width: 1440px) {
+  .clientTitle {
+    font-size: 36px;
+    display: flex;
+    justify-content: end;
+    margin-right: 204px;
+  }
+  .border {
+    transform: translate(178%, 50%);
+    max-width: 494px;
+  }
+}
