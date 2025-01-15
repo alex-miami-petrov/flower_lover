@@ -89,6 +89,7 @@
     background-size: 776px 1104px;
     background-repeat: no-repeat;
     padding-top: 10px;
+    z-index: 999;
   }
   @media only screen and (-webkit-min-device-pixel-ratio: 2),
     only screen and (min--moz-device-pixel-ratio: 2),
