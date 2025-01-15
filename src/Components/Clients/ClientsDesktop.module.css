@@ -1,50 +1,40 @@
-/* .clientDeskSwiper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-button-next,
-.swiper-button-prev {
-  color: red;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
-  padding: 10px;
-}
-
-.swiper-button-next {
-  right: 10px;
-}
-
-.swiper-button-prev {
-  left: 10px;
-}
-
-
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-  background-color: rgba(255, 255, 255, 0.8);
-}
-
-.swiper-wrapper {
-  display: flex;
-  justify-content: flex-start;
-} */
-
 .clientDeskSlideImage {
   width: 323px !important;
-  height: 358px;
+  height: 358px !important;
 }
 
 .clientDeskSlide {
-  width: 343px !important;
+  width: 349px !important;
 }
 
 .clientDeskSwiper {
+  position: relative;
   width: calc(95% - 0px) !important;
-  margin-right: 26px !important;
+
+  /* overflow: visible; */
+}
+
+/* .customPrev {
+  position: absolute;
+  transform: translate(50%, -50%);
+  z-index: 100;
+} */
+
+.customPrev,
+.customNext {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+  cursor: pointer;
+
+  pointer-events: auto;
+}
+
+.customPrev {
+  left: -10px;
+}
+
+.customNext {
+  right: -10px;
 }

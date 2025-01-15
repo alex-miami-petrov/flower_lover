@@ -15,6 +15,7 @@ import client_3 from "../../img/Clients/client_3.jpg";
 import client_3_2x from "../../img/Clients/client_3_2x.jpg";
 import client_4 from "../../img/Clients/client_4.jpg";
 import client_4_2x from "../../img/Clients/client_4_2x.jpg";
+import icons from "../../img/icons.svg";
 
 const ClientsDesktop = () => {
   const slides = [
@@ -52,13 +53,26 @@ const ClientsDesktop = () => {
 
   return (
     <Swiper
-      navigation={true}
-      // centeredSlides={true}
       slidesPerView={4}
       spaceBetween={0}
+      navigation={{
+        prevEl: `.${s.customPrev}`,
+        nextEl: `.${s.customNext}`,
+      }}
       modules={[Navigation]}
       className={s.clientDeskSwiper}
     >
+      <div className={s.customPrev}>
+        <svg className={s.icon} width="58" height="76">
+          <use href={`${icons}#icon-left_arr`} />
+        </svg>
+      </div>
+      <div className={s.customNext}>
+        <svg className={s.icon} width="58" height="76">
+          <use href={`${icons}#icon-right_arr`} />
+        </svg>
+      </div>
+
       {slides.map((slide) => (
         <SwiperSlide key={slide.id} className={s.clientDeskSlide}>
           <img
@@ -74,3 +88,36 @@ const ClientsDesktop = () => {
 };
 
 export default ClientsDesktop;
+
+//   return (
+//     <Swiper
+//       slidesPerView={4}
+//       spaceBetween={0}
+//       navigation={{
+//         prevEl: ".custom-prev",
+//         nextEl: ".custom-next",
+//       }}
+//       modules={[Navigation]}
+//       className={s.clientDeskSwiper}
+//     >
+//       <div className="custom-prev">
+//         <svg className={s.icon} width="58" height="76">
+//           <use href={`${icons}#icon-left_arr`} />
+//         </svg>
+//       </div>
+//       <div className="custom-next">
+//         <svg className={s.icon} width="58" height="76">
+//           <use href={`${icons}#icon-right_arr`} />
+//         </svg>
+//       </div>
+
+//       {slides.map((slide) => (
+//         <SwiperSlide key={slide.id} className={s.clientDeskSlide}>
+//           <img src={slide.img1x} alt={slide.alt} />
+//         </SwiperSlide>
+//       ))}
+//     </Swiper>
+//   );
+// };
+
+// export default ClientsDesktop;
