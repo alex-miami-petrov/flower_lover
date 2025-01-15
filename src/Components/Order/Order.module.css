@@ -84,9 +84,9 @@
 
 @media screen and (min-width: 1440px) {
   .order {
-    padding-bottom: 121px;
+    padding-top: 121px;
     background-image: url(../../img/Order/order_bcg.png);
-    background-size: 776px 1104px;
+    background-size: 776px 1204px;
     background-repeat: no-repeat;
     padding-top: 10px;
     z-index: 999;

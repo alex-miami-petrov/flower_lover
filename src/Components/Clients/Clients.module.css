@@ -32,4 +32,7 @@
     transform: translate(178%, 50%);
     max-width: 494px;
   }
+  .clientTitleWrap {
+    margin-bottom: 140px;
+  }
 }
