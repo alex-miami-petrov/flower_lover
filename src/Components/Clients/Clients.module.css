@@ -1,5 +1,8 @@
 .clients {
   position: relative;
+  padding-bottom: 125px;
+  border-bottom: 2px solid #a93b59;
+  width: 100%;
 }
 
 .clientTitleWrap {
