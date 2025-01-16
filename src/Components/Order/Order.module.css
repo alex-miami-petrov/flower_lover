@@ -10,11 +10,21 @@
   color: #a93b59;
 }
 
-.border {
+.orderTitle::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Відстань віднизу заголовка */
+  left: 0;
+  height: 2px; /* Висота бордера */
+  width: 104%;
+  background-color: #a93b59;
+}
+
+/* .border {
   position: absolute;
   transform: translate(-5%, 50%);
   max-width: 350px;
-}
+} */
 
 .borderOrderDesk {
   display: none;
@@ -104,6 +114,16 @@
     font-size: 36px;
     padding-left: 60px;
     line-height: 0.3;
+  }
+
+  .orderTitle::after {
+    content: "";
+    position: absolute;
+    bottom: -12px; /* Відстань віднизу заголовка */
+    left: 4%;
+    height: 2px; /* Висота бордера */
+    width: 96%;
+    background-color: #a93b59;
   }
 
   .orderTitleWrap {

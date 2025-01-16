@@ -15,11 +15,21 @@
   margin-left: 24px;
 }
 
-.border {
+.aboutTitle:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 2px;
+  width: 104%;
+  background-color: #a93b59;
+}
+
+/* .border {
   position: absolute;
   transform: translate(5%, 50%);
   max-width: 350px;
-}
+} */
 
 .aboutSub {
   font-family: "Source Sans Pro", sans-serif;
@@ -57,10 +67,14 @@
     display: flex;
     justify-content: end;
   }
-  .border {
+  .aboutTitle:after {
+    content: "";
     position: absolute;
-    transform: translate(289%, 50%);
-    max-width: 494px;
+    bottom: -2px;
+    left: 76%;
+    height: 2px;
+    width: 29%;
+    background-color: #a93b59;
   }
   .aboutSub {
     font-size: 32px;

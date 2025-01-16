@@ -1,6 +1,5 @@
 import React from "react";
 import s from "./AboutUs.module.css";
-import border from "../../img/Catalogue/border.png";
 import about1 from "../../img/AboutUs/about-1.png";
 import about1_2x from "../../img/AboutUs/about-1-2x.png";
 import about1_desk from "../../img/AboutUs/about-1-desk.png";
@@ -21,7 +20,6 @@ const AboutUs = () => {
       <Container>
         <div className={s.aboutTitleWrap}>
           <h2 className={s.aboutTitle}>Якість в деталях</h2>
-          <img className={s.border} width="350" src={border} alt="border" />
         </div>
 
         <ul className={s.aboutList}>
