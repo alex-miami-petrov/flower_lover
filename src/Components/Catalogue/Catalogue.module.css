@@ -11,10 +11,14 @@
   margin-right: 28px;
 }
 
-.border {
+.catTitle:after {
+  content: "";
   position: absolute;
-  transform: translate(-5%, 50%);
-  max-width: 350px;
+  bottom: -2px;
+  left: 62%;
+  height: 2px; /* Висота бордера */
+  width: 50%;
+  background-color: #a93b59;
 }
 
 .row {
@@ -65,14 +69,18 @@
 
   .catTitle {
     position: absolute;
-    transform: translate(110%, -94%);
+    transform: translate(158%, -94%);
     font-size: 36px;
   }
 
-  .border {
+  .catTitle:after {
+    content: "";
     position: absolute;
-    transform: translate(-18%, 50%);
-    max-width: 350px;
+    bottom: -2px;
+    left: -200%;
+    height: 2px; /* Висота бордера */
+    width: 300%;
+    background-color: #a93b59;
   }
 
   .catSubtitle {

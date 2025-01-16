@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "../Container/Container";
-import border from "../../img/Catalogue/border.png";
 import s from "./Catalogue.module.css";
 import DropdownMenu from "../DropdownMenu/DropdownMenu";
 import Hits from "../Hits/Hits.jsx";
@@ -30,7 +29,6 @@ const Catalogue = () => {
       <Container>
         <div className={s.catTitleWrap}>
           <h2 className={s.catTitle}>Каталог</h2>
-          <img className={s.border} width="490" src={border} alt="border"></img>
         </div>
 
         <div className={`${s.dropContainer} ${s.mt5}`}>
