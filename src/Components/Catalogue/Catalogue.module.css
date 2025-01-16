@@ -78,7 +78,7 @@
     position: absolute;
     bottom: -2px;
     left: -200%;
-    height: 2px; /* Висота бордера */
+    height: 2px;
     width: 300%;
     background-color: #a93b59;
   }
