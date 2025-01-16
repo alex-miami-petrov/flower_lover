@@ -2,6 +2,16 @@
   margin-top: 152px;
 }
 
+.footWrap {
+  display: flex;
+  justify-content: space-between;
+}
+.navItem {
+  font-family: "Source Sans Pro", sans-serif;
+
+  font-size: 12px;
+}
+
 .phone {
   fill: #a93b59;
 }

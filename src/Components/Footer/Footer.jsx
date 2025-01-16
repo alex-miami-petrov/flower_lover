@@ -30,16 +30,19 @@ const Footer = () => {
           <div className={s.contactsWrap}>
             <ul className={s.contactsList}>
               <li className={s.contactsItem}>
-                <h3 className={s.subTitle}></h3>
-                <p className={s.text}></p>
+                <h3 className={s.subTitle}>+38097 777 55 77</h3>
+                <p className={s.text}>Наш телефон</p>
               </li>
               <li className={s.contactsItem}>
-                <h3 className={s.subTitle}></h3>
-                <p className={s.text}></p>
+                <h3 className={s.subTitle}>info@floverlover.ua</h3>
+                <p className={s.text}>Контактний е-mail</p>
               </li>
               <li className={s.contactsItem}>
-                <h3 className={s.subTitle}></h3>
-                <p className={s.text}></p>
+                <h3 className={s.subTitle}>
+                  <span className="footSpan">Київ</span>
+                  <br /> вул. Маріупольська, 14.
+                </h3>
+                <p className={s.text}>Наш магазин</p>
               </li>
             </ul>
           </div>
