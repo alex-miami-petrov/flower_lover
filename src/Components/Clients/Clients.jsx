@@ -23,7 +23,7 @@ const Clients = () => {
       <Container>
         <div className={s.clientTitleWrap}>
           <h2 className={s.clientTitle}>Наші клієнти</h2>
-          <img className={s.border} width="494" src={border} alt="border" />
+          {/* <img className={s.border} width="494" src={border} alt="border" /> */}
         </div>
       </Container>
       {isDesktop ? <ClientsDesktop /> : <ClientsMob />}
