@@ -1,17 +1,54 @@
 .footer {
-  margin-top: 152px;
+  padding-top: 152px;
+  padding-bottom: 40px;
 }
 
 .footWrap {
   display: flex;
   justify-content: space-between;
 }
+
 .navItem {
   font-family: "Source Sans Pro", sans-serif;
 
   font-size: 12px;
+  margin-bottom: 4px;
 }
 
+.navItem:first-child {
+  font-size: 18px;
+  font-variant: small-caps;
+}
+
+.contactsList {
+  padding: 0;
+}
+.subTitle {
+  font-family: "Source Sans Pro", sans-serif;
+
+  font-size: 14px;
+
+  text-align: center;
+  margin: 0;
+}
+.text {
+  font-size: 12px;
+  text-align: center;
+  margin-block-start: 0.5em;
+}
 .phone {
   fill: #a93b59;
+}
+.contactsWrap {
+  margin-bottom: 16px;
+}
+.botWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialList {
+  display: flex;
+  gap: 16px;
 }

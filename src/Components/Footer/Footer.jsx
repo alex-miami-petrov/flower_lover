@@ -39,7 +39,7 @@ const Footer = () => {
               </li>
               <li className={s.contactsItem}>
                 <h3 className={s.subTitle}>
-                  <span className="footSpan">Київ</span>
+                  Київ
                   <br /> вул. Маріупольська, 14.
                 </h3>
                 <p className={s.text}>Наш магазин</p>
