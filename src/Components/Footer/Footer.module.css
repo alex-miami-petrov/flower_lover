@@ -8,6 +8,10 @@
   justify-content: space-between;
 }
 
+.footDeskWrap {
+  display: none;
+}
+
 .navItem {
   font-family: "Source Sans Pro", sans-serif;
 
