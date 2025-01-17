@@ -8,6 +8,14 @@
   background-repeat: no-repeat;
   background-position: bottom;
 }
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-resolution: 192dpi) {
+  .clients {
+    background-image: url(../../img/Clients/client_bcg_2x.png);
+  }
+}
 
 .clients::after {
   content: "";
@@ -63,6 +71,7 @@
 @media screen and (min-width: 1440px) {
   .clients {
     background-image: unset;
+    padding-bottom: unset;
   }
 
   /* .clientTitle {

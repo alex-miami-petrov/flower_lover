@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import s from "./Clients.module.css";
 import Container from "../Container/Container.jsx";
-import border from "../../img/Clients/client_border.jpg";
 
 import ClientsMob from "./ClientsMob.jsx";
 import ClientsDesktop from "./ClientsDesktop.jsx";

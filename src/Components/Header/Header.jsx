@@ -22,11 +22,11 @@ const Header = ({ toggleMenu }) => {
 
           <NavBar />
           <div className={s.headBtnWrap}>
-            <button type="button" className={s.headSearchButton}>
+            {/* <button type="button" className={s.headSearchButton}>
               <svg className={s.headSearchIcon} width="22" height="23">
                 <use href={`${icons}#icon-search`} />
               </svg>
-            </button>
+            </button> */}
 
             <button type="button" className={s.burger} onClick={toggleMenu}>
               <svg className={s.burgerIcon} width="42" height="42">

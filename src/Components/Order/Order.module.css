@@ -13,21 +13,11 @@
 .orderTitle::after {
   content: "";
   position: absolute;
-  bottom: -2px; /* Відстань віднизу заголовка */
+  bottom: -2px;
   left: 0;
-  height: 2px; /* Висота бордера */
+  height: 2px;
   width: 104%;
   background-color: #a93b59;
-}
-
-/* .border {
-  position: absolute;
-  transform: translate(-5%, 50%);
-  max-width: 350px;
-} */
-
-.borderOrderDesk {
-  display: none;
 }
 
 .orderTitleWrap {
@@ -119,9 +109,8 @@
   .orderTitle::after {
     content: "";
     position: absolute;
-    bottom: -12px; /* Відстань віднизу заголовка */
-    left: 4%;
-    height: 2px; /* Висота бордера */
+    bottom: -12px;
+    height: 2px;
     width: 96%;
     background-color: #a93b59;
   }

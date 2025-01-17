@@ -52,3 +52,54 @@
   display: flex;
   gap: 16px;
 }
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    padding-top: 192px;
+    margin-left: 112px;
+    margin-right: 54px;
+  }
+  .footDeskWrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navItem {
+    font-size: 20px;
+    margin-bottom: 32px;
+  }
+
+  .navItem:first-child {
+    font-size: 20px;
+  }
+  .botWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+    align-items: center;
+    gap: 32px;
+  }
+  .socialList {
+    gap: 46px;
+  }
+  .headLogo {
+    width: 264px;
+    height: 137px;
+  }
+
+  .socialIcon {
+    width: 40px;
+    height: 40px;
+  }
+  .contactsWrap {
+    display: none;
+  }
+
+  .subTitle {
+    font-size: 24px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+}
