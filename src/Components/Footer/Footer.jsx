@@ -2,6 +2,7 @@ import React from "react";
 import s from "./Footer.module.css";
 import Container from "../Container/Container.jsx";
 import logo from "../../img/logo/logo.png";
+import logo_desk from "../../img/logo/logo_desk.png";
 import icons from "../../img/icons.svg";
 
 const Footer = () => {
@@ -56,6 +57,13 @@ const Footer = () => {
                 className={s.headLogo}
                 width="126"
                 height="63"
+              />
+              <img
+                src={logo_desk}
+                alt="logo"
+                className={s.headLogoDesk}
+                width="264"
+                height="137"
               />
             </a>
             <div className={s.socialWrap}>
