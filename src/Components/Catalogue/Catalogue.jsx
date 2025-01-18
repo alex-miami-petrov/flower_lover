@@ -3,6 +3,8 @@ import Container from "../Container/Container";
 import s from "./Catalogue.module.css";
 import DropdownMenu from "../DropdownMenu/DropdownMenu";
 import Hits from "../Hits/Hits.jsx";
+// import { useEffect, useState } from "react";
+// import { fetchResults } from "./api";
 
 const Catalogue = () => {
   const options1 = ["< 200 ₴ ", "200 - 500 ₴", "> 1000 ₴"];
@@ -25,31 +27,40 @@ const Catalogue = () => {
     "Каскадний",
   ];
 
-  //  const [filters, setFilters] = useState({
-  //    price: [],
-  //    flowers: [],
-  //    recipient: [],
-  //    occasion: [],
-  //    style: [],
-  //  });
+  // const [filters, setFilters] = useState({
+  //   price: [],
+  //   flowers: [],
+  //   recipient: [],
+  //   occasion: [],
+  //   style: [],
+  // });
+  // const [results, setResults] = useState([]);
+  // const [error, setError] = useState(null);
 
-  //  const [results, setResults] = useState([]);
+  // const handleApplyFilter = (filterType, selectedOptions) => {
+  //   setFilters((prev) => ({ ...prev, [filterType]: selectedOptions }));
+  // };
 
-  //  const handleApplyFilter = (filterType, selectedOptions) => {
-  //    setFilters((prev) => ({ ...prev, [filterType]: selectedOptions }));
-  //  };
+  // const fetchFilteredResults = async () => {
+  //   try {
+  //     const data = await fetchResults(filters);
+  //     setResults(data);
+  //   } catch (error) {
+  //     setError("Failed to fetch results");
+  //   }
+  // };
 
-  //  const fetchResults = async () => {
-  //    try {
-  //      const response = await axios.post(
-  //        "http://localhost:8080/flowers/filter",
-  //        filters
-  //      );
-  //      setResults(response.data);
-  //    } catch (error) {
-  //      console.error("Error fetching filtered results:", error);
-  //    }
-  //  };
+  // useEffect(() => {
+  //   if (
+  //     filters.price.length ||
+  //     filters.flowers.length ||
+  //     filters.recipient.length ||
+  //     filters.occasion.length ||
+  //     filters.style.length
+  //   ) {
+  //     fetchFilteredResults();
+  //   }
+  // }, [filters]);
 
   return (
     <section className={s.catalogue} id="catalogue">
